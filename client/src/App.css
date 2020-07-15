@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(bg.png);
+}
+
+.container{
+    background-color: white;
+    padding: 40px 0;
+    margin: 100px auto;
+    width: 90%;
+    box-shadow: 0 0 20px #000000b3;
+    border-radius: 8px;
+    font-family: "montserrat",sans-serif;
+}
+
+.container h1{
+    font-family: "montserrat",sans-serif;
+    text-align: center;
+    font-weight: 650;
+    font-size: xxx-large;
+}
+.container form{
+    width: 100%;
+    padding: 10px;
+
+}
+
+.container label{
+    display: block;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.container input, 
+.container textarea{
+    width: 100%;
+    margin:o auto;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px 1px rgb(58,57,57);
+}
+
+.container input:focus, .container textarea:focus{
+    box-shadow: 1px 1px 4px 1px #9b59b6;
+}
+
+.singleItem{
+    margin: 10px 0;
+
+}
+
+.btn{
+    display: inline-block;
+    background: #9b59b6;
+    padding: 14px;
+    width: 100%;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    outline: none;
+    position: relative;
+    margin-top: 8px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    border: 1px solid #fefefe;
+    background-color: #431455;
+    cursor: pointer; 
+}
+
+.msg{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    width: 340px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(5,110,5);
+    background-color: #fff;
+    border-radius: 5px;
+    display: none;
+}
+
+.msgAppear{
+    display: block;
+}
+
+@media screen and (min-width:664px){
+    .container{
+        width: 60%; 
+
+    }
+}
+
+@media screen and (min-width:986px){
+    .container{
+        width: 40%; 
+        
+    }
+}
+
